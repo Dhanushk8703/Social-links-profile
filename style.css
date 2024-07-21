@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    justify-content: center center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    background-color: rgb(29, 28, 28);
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-family: Inter;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.loc {
+    color: yellow;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.about img {
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.role {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.social {
+    justify-content: space-around;
+}
+.social ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.social ul li {
+    padding: 10px;
+    background-color: rgb(56, 54, 54);
+    margin: 15px;
+    border-radius: 10px;
+}
